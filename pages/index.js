@@ -3,10 +3,12 @@ import path from "path";
 import matter from "gray-matter";
 import Link from "next/link";
 import { sortByDate } from "../utils";
+import Header from "../components/Header/Header";
 
 export default function Home({ posts }) {
   return (
     <>
+      <Header />
       <div style={{ textAlign: "center" }}>
         {posts.map((post, index) => (
           <div key={index}>
