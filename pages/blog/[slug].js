@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import PostFull from "../../components/Post-full/postFull";
+import PostFull from "../../components/Post-full/PostFull";
 import Layout from "../../components/Layout";
 
 const Post = ({ content }) => {
