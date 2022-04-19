@@ -6,7 +6,7 @@ const PostShort = ({ post }) => {
   return (
     <>
       {post && (
-        <Link href={`blog/${post.slug}`}>
+        <Link href={`blog/${post.slug}`} passHref>
           <Paper elevation={3} sx={{ padding: "0.5rem" }}>
             <Box
               sx={{
@@ -24,6 +24,7 @@ const PostShort = ({ post }) => {
                   height="100%"
                   layout="responsive"
                   objectFit="contain"
+                  alt=""
                 />
               </Box>
             </Box>
