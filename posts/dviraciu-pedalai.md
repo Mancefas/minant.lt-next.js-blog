@@ -2,6 +2,7 @@
 title: "Originalūs dviračio pedalai nebetenkina ? Yra geresnių !"
 date: "2022-01-05"
 excerpt: "Dviračio dydį jau išsirinkome, tinkamai susireguliavome sėdynę ir galima pradėti dairytis į kitus dviračio aksesuarus"
+read_time: "3min"
 cover_img: "/img/post/pedalai.jpg"
 ---
 

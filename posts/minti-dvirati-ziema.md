@@ -2,6 +2,7 @@
 title: "Ledas, sniegas, šaltis. Minti dviratį reikia ir žiemą."
 date: "2021-12-05"
 excerpt: "Į Lietuvą netikėtai atkeliavo tikra žiema. Daug minuso ir net sniego. Viskas labai smagu ir gerai, bet tikram dviratininkui iškyla klausimas – važiuoti ar ne ?"
+read_time: "3min"
 cover_img: "/img/post/mina-ziema.jpg"
 ---
 

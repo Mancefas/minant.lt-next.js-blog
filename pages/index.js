@@ -1,26 +1,25 @@
 import fs from "fs";
 import path from "path";
+
 import matter from "gray-matter";
-import Link from "next/link";
+
+import { Grid } from "@mui/material";
+
 import { sortByDate } from "../utils";
 import Header from "../components/Header/Header";
+import PostShort from "../components/Post-short/PostShort";
 
 export default function Home({ posts }) {
   return (
     <>
       <Header />
-      <div style={{ textAlign: "center" }}>
+      <Grid container spacing={1}>
         {posts.map((post, index) => (
-          <div key={index}>
-            <h3>{post.frontmatter.title}</h3>
-            <h3>{post.frontmatter.date}</h3>
-            <h3>{post.frontmatter.excerpt}</h3>
-            <Link href={`blog/${post.slug}`}>
-              <h4>Read more</h4>
-            </Link>
-          </div>
+          <Grid key={index} item xs={10} md={5} sx={{ margin: "auto" }}>
+            <PostShort post={post} />
+          </Grid>
         ))}
-      </div>
+      </Grid>
     </>
   );
 }

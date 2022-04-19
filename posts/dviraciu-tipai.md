@@ -2,6 +2,7 @@
 title: "Dviračių tipai"
 date: "2021-01-19"
 excerpt: "Kaip išsirinkti dviratį sau arba padėti jį išrinkti kitam?"
+read_time: "4min"
 cover_img: "/img/post/daug-dviraciu.jpg"
 ---
 
