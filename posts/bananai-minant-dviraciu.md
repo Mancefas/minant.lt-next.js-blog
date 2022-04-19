@@ -1,6 +1,6 @@
 ---
 title: "Bananai minant dviračiu"
-date: "2022-11-15"
+date: "2021-11-15"
 excerpt: "Bananas yra turbūt populiariausias vaisius visiems minantiems dviratininkams (ir daugumai kitų sportininkų)."
 cover_img: "/img/post/bananas.jpg"
 ---
