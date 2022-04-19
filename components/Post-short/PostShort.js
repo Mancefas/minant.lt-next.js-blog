@@ -15,13 +15,18 @@ const PostShort = ({ post }) => {
                 justifyContent: "center",
               }}
             >
-              <Image
-                src={post.frontmatter.cover_img}
-                width={"250"}
-                height={"250"}
-              />
+              <div style={{ width: "100%", height: "100%" }}>
+                <Image
+                  src={post.frontmatter.cover_img}
+                  width="100%"
+                  height="40%"
+                  layout="responsive"
+                  objectFit="contain"
+                />
+              </div>
             </Box>
             <Typography
+              align="center"
               sx={{
                 overflowWrap: "break-word",
                 typography: { xs: "body1", md: "h5", lg: "h5" },
