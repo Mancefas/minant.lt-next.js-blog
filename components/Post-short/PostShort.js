@@ -15,15 +15,17 @@ const PostShort = ({ post }) => {
                 justifyContent: "center",
               }}
             >
-              <div style={{ width: "100%", height: "100%" }}>
+              <Box
+                sx={{ width: "100%", height: "100%", marginBottom: "0.5rem" }}
+              >
                 <Image
                   src={post.frontmatter.cover_img}
-                  width="100%"
-                  height="40%"
+                  width="140%"
+                  height="100%"
                   layout="responsive"
                   objectFit="contain"
                 />
-              </div>
+              </Box>
             </Box>
             <Typography
               align="center"

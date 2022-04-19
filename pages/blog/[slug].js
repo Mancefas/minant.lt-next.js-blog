@@ -1,21 +1,15 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { marked } from "marked";
-import Link from "next/link";
-import Image from "next/image";
+import PostFull from "../../components/Post-full/postFull";
+import Layout from "../../components/Layout";
 
-const Post = ({ frontmatter: { title, date, cover_img }, content, slug }) => {
+const Post = ({ content }) => {
   return (
     <>
-      <div style={{ textAlign: "center" }}>
-        <Image src={cover_img} width={"250"} height={"250"} />
-        {/* <img src={cover_img}></img> */}
-        <div>{title}</div>
-        <div>{date}</div>
-      </div>
-      <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-      <Link href="/">Go back</Link>
+      <Layout>
+        <PostFull content={content} />
+      </Layout>
     </>
   );
 };

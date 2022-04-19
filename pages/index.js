@@ -6,20 +6,25 @@ import matter from "gray-matter";
 import { Grid } from "@mui/material";
 
 import { sortByDate } from "../utils";
-import Header from "../components/Header/Header";
 import PostShort from "../components/Post-short/PostShort";
+import Layout from "../components/Layout";
 
 export default function Home({ posts }) {
   return (
     <>
-      <Header />
-      <Grid container spacing={1}>
-        {posts.map((post, index) => (
-          <Grid key={index} item xs={10} md={5} sx={{ margin: "auto" }}>
-            <PostShort post={post} />
-          </Grid>
-        ))}
-      </Grid>
+      <Layout>
+        <Grid
+          container
+          spacing={2}
+          sx={{ margin: "auto", width: "70vw", marginBottom: "1rem" }}
+        >
+          {posts.map((post, index) => (
+            <Grid key={index} item xs={10} md={5} sx={{ margin: "auto" }}>
+              <PostShort post={post} />
+            </Grid>
+          ))}
+        </Grid>
+      </Layout>
     </>
   );
 }
