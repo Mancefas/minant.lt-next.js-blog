@@ -44,7 +44,9 @@ const PostShort = ({ post }) => {
                 </Typography>
                 <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                   <Typography>{post.frontmatter.date}</Typography>
-                  <Typography>{post.frontmatter.read_time}</Typography>
+                  <Typography sx={{ fontWeight: "700" }}>
+                    {post.frontmatter.read_time}
+                  </Typography>
                 </Box>
               </Box>
             </Paper>

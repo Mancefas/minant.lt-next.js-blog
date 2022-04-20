@@ -4,10 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <Container
-      fixed
-      sx={{ marginTop: "0.5rem", height: "fit-content", minHeight: "15vh" }}
-    >
+    <Container fixed sx={{ height: "fit-content", minHeight: "15vh" }}>
       <Grid container gap={1} sx={{ justifyContent: "space-between" }}>
         <Grid item xs={3}>
           <Link href="/">
@@ -20,8 +17,8 @@ const Header = () => {
               ></Image> */}
               <img
                 src="/img/post/minant.lt-logotipas.png"
-                width={350}
-                height={100}
+                width={250}
+                height={75}
                 alt="minant.lt logotipas"
               />
             </a>
