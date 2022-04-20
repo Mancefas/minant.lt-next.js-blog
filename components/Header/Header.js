@@ -1,5 +1,5 @@
 import { Container, Grid } from "@mui/material";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 const Header = () => {
@@ -12,12 +12,18 @@ const Header = () => {
         <Grid item xs={3}>
           <Link href="/">
             <a>
-              <Image
+              {/* <Image
                 src="/img/post/minant.lt-logotipas.png"
                 width={350}
                 height={100}
                 alt="minant.lt logotipas"
-              ></Image>
+              ></Image> */}
+              <img
+                src="/img/post/minant.lt-logotipas.png"
+                width={350}
+                height={100}
+                alt="minant.lt logotipas"
+              />
             </a>
           </Link>
         </Grid>
@@ -30,12 +36,18 @@ const Header = () => {
             justifyContent: "center",
           }}
         >
-          <Image
+          {/* <Image
             src="/img/post/minant.lt-1.png"
             width={125}
             height={50}
             alt="minant.lt logotipas 2"
-          ></Image>
+          ></Image> */}
+          <img
+            src="/img/post/minant.lt-1.png"
+            width={125}
+            height={50}
+            alt="minant.lt logotipas 2"
+          />
         </Grid>
       </Grid>
     </Container>

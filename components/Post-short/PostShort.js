@@ -1,55 +1,54 @@
 import { Paper, Typography, Box } from "@mui/material";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 const PostShort = ({ post }) => {
   return (
     <>
       {post && (
-        <Link href={`blog/${post.slug}`} passHref>
-          <Paper elevation={3} sx={{ padding: "0.5rem" }}>
-            <Box
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
+        <Link href={`/blog/${post.slug}`} style={{ cursor: "pointer" }}>
+          <a>
+            <Paper elevation={3} sx={{}}>
               <Box
-                sx={{ width: "100%", height: "100%", marginBottom: "0.5rem" }}
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
               >
-                <Image
+                <img
+                  style={{ borderRadius: "7px 7px 0px 0px" }}
                   src={post.frontmatter.cover_img}
-                  width="140%"
-                  height="100%"
-                  layout="responsive"
-                  objectFit="contain"
+                  height="250vh"
+                  width="100%"
                   alt=""
                 />
               </Box>
-            </Box>
-            <Typography
-              align="center"
-              sx={{
-                overflowWrap: "break-word",
-                typography: { xs: "body1", md: "h5", lg: "h5" },
-              }}
-            >
-              {post.frontmatter.title}
-            </Typography>
-            <Typography
-              sx={{
-                overflowWrap: "break-word",
-                typography: { xs: "body2", md: "h6" },
-              }}
-            >
-              {post.frontmatter.excerpt}
-            </Typography>
-            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-              <Typography>{post.frontmatter.date}</Typography>
-              <Typography>{post.frontmatter.read_time}</Typography>
-            </Box>
-          </Paper>
+              <Box sx={{ padding: "0.5rem" }}>
+                <Typography
+                  align="center"
+                  sx={{
+                    overflowWrap: "break-word",
+                    typography: { xs: "body1", md: "h5", lg: "h5" },
+                  }}
+                >
+                  {post.frontmatter.title}
+                </Typography>
+                <Typography
+                  sx={{
+                    overflowWrap: "break-word",
+                    typography: { xs: "body2", md: "h6" },
+                  }}
+                >
+                  {post.frontmatter.excerpt}
+                </Typography>
+                <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+                  <Typography>{post.frontmatter.date}</Typography>
+                  <Typography>{post.frontmatter.read_time}</Typography>
+                </Box>
+              </Box>
+            </Paper>
+          </a>
         </Link>
       )}
     </>

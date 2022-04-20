@@ -1,7 +1,7 @@
 ---
 title: "Kokie kamerų ventiliai naudojami dviračio padangose ?"
 date: "2020-11-19"
-excerpt: "Dviračių padangose kamera išlaiko tinkamą slėgį (apie tubeless daugiau informacijos kitame straipsnyje)."
+excerpt: "Aptariame kokie būna kameru ventiliai."
 read_time: "2min"
 cover_img: "/img/post/pumping-tyre.jpg"
 ---
