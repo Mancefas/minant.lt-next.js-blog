@@ -4,6 +4,7 @@ import path from "path";
 import matter from "gray-matter";
 
 import { Grid } from "@mui/material";
+import Head from "next/head";
 
 import { sortByDate } from "../utils";
 import PostShort from "../components/Post-short/PostShort";
@@ -12,6 +13,17 @@ import Layout from "../components/Layout";
 export default function Home({ posts }) {
   return (
     <>
+      <Head>
+        <title>minant.lt - dviračių straipsniai, maršrutai, aksesuarai.</title>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
+        <meta
+          name="description"
+          content="Dviračių maršrutai Kaune, dviračių maršrutai Vilniuje, įvairūs straipsniai dviratininkams | Dviračių aksesuarai ir priedai"
+        ></meta>
+      </Head>
       <Layout>
         <Grid
           container
