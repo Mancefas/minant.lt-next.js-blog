@@ -30,10 +30,10 @@ const Footer = () => {
             margin: "auto",
           }}
         >
-          <Link href="privatumo-politika">
+          <Link href="/privatumo-politika">
             <a>Privatumo politika</a>
           </Link>
-          <Link href="">
+          <Link href="/">
             <a>Susisiekti</a>
           </Link>
         </Grid>
@@ -70,6 +70,7 @@ const Footer = () => {
             style={{ color: "blue" }}
             href="https://www.facebook.com/Minantlt-100110368575555"
             target="_blank"
+            rel="noreferrer"
           >
             Facebook
           </a>

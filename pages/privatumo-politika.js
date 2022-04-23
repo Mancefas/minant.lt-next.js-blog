@@ -60,7 +60,7 @@ const privatumo_politika = () => {
         </Typography>
       </Container>
       <Box sx={{ textAlign: "center", marginBottom: "1rem" }}>
-        <Link href="/">
+        <Link href="/" passHref>
           <Button variant="outlined" color="success">
             {" "}
             Atgal
