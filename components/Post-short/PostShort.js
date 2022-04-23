@@ -6,7 +6,7 @@ const PostShort = ({ post }) => {
   return (
     <>
       {post && (
-        <Link href={`/blog/${post.slug}`} style={{ cursor: "pointer" }}>
+        <Link href={`/${post.slug}`} style={{ cursor: "pointer" }}>
           <a>
             <Paper elevation={3} sx={{ ":hover": { filter: "opacity(88%)" } }}>
               <Box
