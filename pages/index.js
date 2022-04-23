@@ -3,12 +3,13 @@ import path from "path";
 
 import matter from "gray-matter";
 
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import Head from "next/head";
 
 import { sortByDate } from "../utils";
 import PostShort from "../components/Post-short/PostShort";
 import Layout from "../components/Layout";
+import LandingParagraph from "../components/LandingComponents/LandingParagraph";
 
 export default function Home({ posts }) {
   return (
@@ -25,6 +26,10 @@ export default function Home({ posts }) {
         ></meta>
       </Head>
       <Layout>
+        <LandingParagraph />
+        <Typography align="center" variant="h3">
+          Skaitiniai
+        </Typography>
         <Grid
           container
           spacing={2}
