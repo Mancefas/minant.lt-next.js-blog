@@ -8,7 +8,7 @@ const PostShort = ({ post }) => {
       {post && (
         <Link href={`/blog/${post.slug}`} style={{ cursor: "pointer" }}>
           <a>
-            <Paper elevation={3} sx={{}}>
+            <Paper elevation={3} sx={{ ":hover": { filter: "opacity(88%)" } }}>
               <Box
                 sx={{
                   display: "flex",
@@ -17,10 +17,11 @@ const PostShort = ({ post }) => {
                 }}
               >
                 <img
-                  style={{ borderRadius: "7px 7px 0px 0px" }}
+                  style={{
+                    borderRadius: "7px 7px 0px 0px",
+                    width: "100%",
+                  }}
                   src={post.frontmatter.cover_img}
-                  height="250vh"
-                  width="100%"
                   alt=""
                 />
               </Box>
