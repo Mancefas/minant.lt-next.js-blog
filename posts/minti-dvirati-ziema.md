@@ -1,5 +1,5 @@
 ---
-title: "Ledas, sniegas, šaltis. Minti dviratį reikia ir žiemą."
+title: "Minti dviratį žiemą."
 date: "2021-12-05"
 excerpt: "Kokie yra privalumai ir trūkumai minant žiemą."
 read_time: "3min"

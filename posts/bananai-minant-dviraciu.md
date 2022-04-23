@@ -1,8 +1,8 @@
 ---
 title: "Bananai minant dviračiu"
 date: "2021-11-15"
-excerpt: "Bananas yra turbūt populiariausias vaisius visiems minantiems dviratininkams."
-read_time: "2min"
+excerpt: "Bananas yra turbūt populiariausias vaisius dviratininkams."
+read_time: "1min"
 cover_img: "/img/post/bananas.jpg"
 ---
 

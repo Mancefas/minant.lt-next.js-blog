@@ -1,5 +1,5 @@
 ---
-title: "Kokie kamerų ventiliai naudojami dviračio padangose ?"
+title: "Ventiliai dviračio padangose"
 date: "2020-11-19"
 excerpt: "Aptariame kokie būna kameru ventiliai."
 read_time: "2min"

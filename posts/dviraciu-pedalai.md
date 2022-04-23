@@ -1,5 +1,5 @@
 ---
-title: "Originalūs dviračio pedalai nebetenkina ? Yra geresnių !"
+title: "Dviračio pedalai"
 date: "2022-01-05"
 excerpt: "Kokie būna skirtingi dviračio pedalai"
 read_time: "3min"

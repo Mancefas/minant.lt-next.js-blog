@@ -30,6 +30,7 @@ const PostShort = ({ post }) => {
                   sx={{
                     overflowWrap: "break-word",
                     typography: { xs: "body1", md: "h5", lg: "h5" },
+                    color: "#708238",
                   }}
                 >
                   {post.frontmatter.title}

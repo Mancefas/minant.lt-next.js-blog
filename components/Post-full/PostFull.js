@@ -7,7 +7,6 @@ const PostFull = ({ content }) => {
     <>
       <Container
         sx={{
-          backgroundColor: "white",
           borderRadius: "7px",
           py: "1rem",
           my: "1rem",
