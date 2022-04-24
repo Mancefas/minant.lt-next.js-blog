@@ -6,3 +6,6 @@
   width: 90%;
   margin: auto;
 }
+.content p {
+  line-height: 1.6;
+}
