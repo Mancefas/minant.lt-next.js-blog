@@ -9,7 +9,7 @@ const privatumo_politika = () => {
         <Typography align="center" variant="h4" sx={{ my: "1rem" }}>
           Kas yra slapukai
         </Typography>
-        <Typography variant="h6">
+        <Typography variant="body1">
           Slapukas – tai nedidelė teksto dalis, svetainės, kurioje lankotės,
           siunčiama naršyklei. Slapukai padeda svetainei įsiminti informaciją
           apie apsilankymą, todėl kitas apsilankymas svetainėje gali būti
@@ -29,7 +29,7 @@ const privatumo_politika = () => {
         <Typography align="center" variant="h4">
           Analizei
         </Typography>
-        <Typography variant="h6">
+        <Typography variant="body1">
           Analizei atlikti naudojami slapukai padeda rinkti duomenis,
           leidžiančius paslaugoms suprasti, kaip naudotojai sąveikauja su
           konkrečia paslauga. Šios įžvalgos leidžia paslaugoms tobulinti turinį
@@ -48,7 +48,7 @@ const privatumo_politika = () => {
         <Typography align="center" variant="h4">
           Reklamai
         </Typography>
-        <Typography variant="h6">
+        <Typography variant="body1">
           Kai kurie slapukai naudojami norint įvertinti skelbimų ir kampanijų
           našumą bei svetainėse, kuriose lankotės, rodomų „Google“ skelbimų
           konversijų rodiklius. Pvz., slapukai, prasidedantys „_gcl_“, yra iš

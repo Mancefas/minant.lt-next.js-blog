@@ -36,7 +36,14 @@ export default function Home({ posts }) {
           sx={{ margin: "auto", width: "70vw", marginBottom: "1rem" }}
         >
           {posts.map((post, index) => (
-            <Grid key={index} item xs={12} md={4} sx={{ margin: "auto" }}>
+            <Grid
+              key={index}
+              item
+              xs={12}
+              sm={6}
+              md={4}
+              sx={{ margin: "auto" }}
+            >
               <PostShort post={post} />
             </Grid>
           ))}
