@@ -1,5 +1,4 @@
 import {
-  Paper,
   Typography,
   Box,
   Card,
@@ -9,6 +8,7 @@ import {
 } from "@mui/material";
 // import Image from "next/image";
 import Link from "next/link";
+import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 
 const PostShort = ({ post }) => {
   return (
@@ -48,9 +48,14 @@ const PostShort = ({ post }) => {
                     sx={{ display: "flex", justifyContent: "space-between" }}
                   >
                     <Typography>{post.frontmatter.date}</Typography>
-                    <Typography sx={{ fontWeight: "700" }}>
-                      {post.frontmatter.read_time}
-                    </Typography>
+                    <Box sx={{ display: "flex" }}>
+                      <AutoStoriesIcon fontSize="small" color="success" />
+                      <Typography
+                        sx={{ fontWeight: "700", marginLeft: "0.5rem" }}
+                      >
+                        {post.frontmatter.read_time}
+                      </Typography>
+                    </Box>
                   </Box>
                 </CardContent>
               </CardActionArea>
