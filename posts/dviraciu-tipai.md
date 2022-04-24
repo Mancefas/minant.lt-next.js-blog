@@ -4,6 +4,7 @@ date: "2021-01-19"
 excerpt: "Kaip išsirinkti dviratį sau arba padėti jį išrinkti kitam?"
 read_time: "4min"
 cover_img: "/img/post/daug-dviraciu.jpg"
+meta_description: "Dviračių tipai, jų skirtumai ir patarimai."
 ---
 
 # Dviračių tipai
@@ -19,7 +20,7 @@ Kaip išsirinkti dviratį sau arba padėti jį išrinkti kitam? Svarbu žinoti i
 
 Dar vadinami MTB. Šie dviračiai naudojami važiuoti kalnuotu reljefu, blogu keliu ar bekele. Turi platesnes padangas, tvirtą ir storą rėmą, daugiau bėgių arba platesnį diapazoną jiems.
 
-Turi amortizatorius priekinėje šakėje, taip pat yra modelių kur naudojami 2 amortizatoriai – priekyje ir gale. Populiariausias ratų skersmuo mtb dviračiui – 29 colių, bet būna ir 27,5 bei 26 colių. Sėdėsena gan stati, platus vairas. Labai populiarus Lietuvoje ir dažniausiai yra pirmasis dviratis kurį renkasi lietuviai. Gan dažnai naudojami **[“shrader” mašininiai ventiliai](https://minant.lt/blog/kokie-kameru-ventiliai-naudojami-dviracio-padangose/)**, todėl lengva rasti rasti vietas pripūsti oro į padangas.
+Turi amortizatorius priekinėje šakėje, taip pat yra modelių kur naudojami 2 amortizatoriai – priekyje ir gale. Populiariausias ratų skersmuo mtb dviračiui – 29 colių, bet būna ir 27,5 bei 26 colių. Sėdėsena gan stati, platus vairas. Labai populiarus Lietuvoje ir dažniausiai yra pirmasis dviratis kurį renkasi lietuviai. Gan dažnai naudojami **[“shrader” mašininiai ventiliai](https://minant.lt/kokie-kameru-ventiliai-naudojami-dviracio-padangose/)**, todėl lengva rasti rasti vietas pripūsti oro į padangas.
 
 ## Plento dviratis
 

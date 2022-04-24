@@ -4,6 +4,7 @@ date: "2020-11-19"
 excerpt: "Aptariame kokie būna kameru ventiliai."
 read_time: "2min"
 cover_img: "/img/post/pumping-tyre.jpg"
+meta_description: "Dviračio kamerų ventiliai. Kokie jie būna, kuo skiriasi vieni nuo kitų?"
 ---
 
 # Kokie kamerų ventiliai naudojami dviračio padangose ?
@@ -31,8 +32,6 @@ Patogu, nes galima pripūsti padangą tiesiog degalinėje. Nėra reikalinga pirk
 Turint ratus su šiais ventiliais reikalinga speciali presta pompa. Žinoma su atitinkamu užsukamu priedu juos galima pripūsti su degalinėje esančiu kompresoriumi, bet kompresorius gali nerodyti kiek jau oro pripūsta.
 
 ## “Dunlop” tipo ventilis
-
-<!-- ![dunlop-ventilis-minant.lt](/img/post/Dunlop-ventilio-pvz-minant.lt_.jpg "Dunlop ventilis") -->
 
 <img src="/img/post/Dunlop-ventilio-pvz-minant.lt_.jpg" width="200"
          alt="dunlop-ventilis-minant.lt">

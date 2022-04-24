@@ -4,6 +4,7 @@ date: "2022-01-05"
 excerpt: "Kokie būna skirtingi dviračio pedalai"
 read_time: "3min"
 cover_img: "/img/post/pedalai.jpg"
+meta_description: "Dviračių pedalai. Kokie jei būna ir kuo jie skiriasi vieni nuo kitų?"
 ---
 
 # Originalūs dviračio pedalai nebetenkina ? Yra geresnių !

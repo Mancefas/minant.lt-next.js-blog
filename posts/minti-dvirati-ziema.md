@@ -4,6 +4,7 @@ date: "2021-12-05"
 excerpt: "Kokie yra privalumai ir trūkumai minant žiemą."
 read_time: "3min"
 cover_img: "/img/post/mina-ziema.jpg"
+meta_description: "Privalumai ir trūkumai minant dviračiu žiemą."
 ---
 
 # Ledas, sniegas, šaltis. Minti dviratį reikia ir žiemą.
@@ -19,7 +20,7 @@ cover_img: "/img/post/mina-ziema.jpg"
 
 ### Sudeginama daugiau kalorijų
 
-Po švenčių turbūt visiem atsirado keletas papildomų kilogramų.Minant žiemą organizmas turi papildomai padirbėti šildant kūną. Taip pat važiuojant snieguotu dviračių taku reikia daugiau pastangų. Nepamirštam, kad dviratininkas greičiausiai ir apsirengs daugiau. Daugiau aprangos – daugiau svorio – reikia daugiau jėgos. Pravartu pasiimti maisto. Tam puikiai **[bananas](https://minant.lt/blog/bananai-minant-dviraciu/)**.
+Po švenčių turbūt visiem atsirado keletas papildomų kilogramų.Minant žiemą organizmas turi papildomai padirbėti šildant kūną. Taip pat važiuojant snieguotu dviračių taku reikia daugiau pastangų. Nepamirštam, kad dviratininkas greičiausiai ir apsirengs daugiau. Daugiau aprangos – daugiau svorio – reikia daugiau jėgos. Pravartu pasiimti maisto. Tam puikiai **[bananas](https://minant.lt/bananai-minant-dviraciu/)**.
 
 ### Mažesnė tikimybė susirgti (tinkamai apsirengus)
 
@@ -34,7 +35,7 @@ galima tai pakeisti. Žinoma minant organizmas pagamina daugiau laimės hormonų
 
 ### Dviračio priežiūra​
 
-Nesvarbu **[ kokį dviratį pasirinksite](https://minant.lt/blog/dviraciu-tipai/)**. Važiuojant dviračiu žiemą labiau dėvimos detalės, padangos ar viskas ką gali paliesti druska. Dėl šios priežasties būtų protinga turėti kitą dviratį vien žiemos pasivažinėjimams.
+Nesvarbu **[ kokį dviratį pasirinksite](https://minant.lt/dviraciu-tipai/)**. Važiuojant dviračiu žiemą labiau dėvimos detalės, padangos ar viskas ką gali paliesti druska. Dėl šios priežasties būtų protinga turėti kitą dviratį vien žiemos pasivažinėjimams.
 Svarbu žiemą dviratį dažniau plauti ir valyti.
 
 ### Daugiau aprangos
@@ -44,7 +45,7 @@ Norint maloniai minti žiemą bus reikalinga šiltesnė apranga. Tai nereiškia,
 ## Keletas patarimų ir išvada​
 
 Norint turėti geresnį sukibimą padangose laikyti mažesnį slėgį.
-Pravartu pasiimti tinkamą atsarginę **[kamerą](https://minant.lt/blog/kokie-kameru-ventiliai-naudojami-dviracio-padangose/)**, kad netyčia pradūrus padangą būtų galima kuo greičiau pasikeisti kamerą.
+Pravartu pasiimti tinkamą atsarginę **[kamerą](https://minant.lt/kokie-kameru-ventiliai-naudojami-dviracio-padangose/)**, kad netyčia pradūrus padangą būtų galima kuo greičiau pasikeisti kamerą.
 Dviratį susireguliuoti prieš važiuojant į lauką.
 Plonesnė termo apranga yra geriau nei storas vilnonis megztinis.
 Per daug stipriai sportuoti žiemos metu nėra tikslo. Stipriai minant tiesiog sušlapsite iš vidaus ir gali pasidaryti šalta.

@@ -4,6 +4,7 @@ date: "2021-11-15"
 excerpt: "Bananas yra turbūt populiariausias vaisius dviratininkams."
 read_time: "1min"
 cover_img: "/img/post/bananas.jpg"
+meta_description: "Bananai minant dviračiu. Kokie jų maistinė vertė ir kokius turi vitaminus."
 ---
 
 # Bananai minant dviračiu

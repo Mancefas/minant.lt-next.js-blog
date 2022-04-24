@@ -3,10 +3,19 @@ import path from "path";
 import matter from "gray-matter";
 import PostFull from "../components/Post-full/PostFull";
 import Layout from "../components/Layout";
+import Head from "next/head";
 
-const Post = ({ content }) => {
+const Post = ({ content, frontmatter }) => {
   return (
     <>
+      <Head>
+        <title>minant.lt - dviračių straipsniai, maršrutai, aksesuarai.</title>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
+        <meta name="description" content={frontmatter.meta_description}></meta>
+      </Head>
       <Layout>
         <PostFull content={content} />
       </Layout>
