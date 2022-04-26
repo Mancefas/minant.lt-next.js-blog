@@ -7,6 +7,7 @@ import { Grid, Typography } from "@mui/material";
 import Head from "next/head";
 import Script from "next/script";
 import { initGA } from "../utils/GA-utils";
+import Link from "next/link";
 
 import { sortByDate } from "../utils";
 import PostShort from "../components/Post-short/PostShort";
@@ -37,6 +38,8 @@ export default function Home({ posts }) {
     const isConsent = getCookieConsentValue();
     if (isConsent === "true") {
       cookieAcepted();
+    } else if (isConsent === "false") {
+      cookieDeclined;
     }
   }, []);
 
@@ -59,12 +62,23 @@ export default function Home({ posts }) {
           buttonText="Supratau, naršau toliau"
           onAccept={cookieAcepted}
           enableDeclineButton
+          declineButtonText="neleisti"
           onDecline={cookieDeclined}
+          flipButtons
+          style={{ opacity: "0.7" }}
+          declineButtonStyle={{
+            background: "#ffffff",
+            color: "black",
+            opacity: "0.5",
+          }}
+          buttonStyle={{ background: "#ffffff", opacity: "1" }}
         >
-          Šioje svetainėje naudojame slapukus, kad užtikrintume tinkamą
-          svetainės veikimą, analizuotume naršymo statistiką, individualizuotume
-          Jūsų naršymo patirtį bei teiktume Jums aktualius naujus straipsnius.
-          Plačiau
+          <p>
+            Šioje svetainėje naudojame slapukus, kad užtikrintume tinkamą
+            svetainės veikimą, analizuotume naršymo statistiką,
+            individualizuotume Jūsų naršymo patirtį bei teiktume Jums aktualius
+            naujus straipsnius. <Link href="/privatumo-politika/">Plačiau</Link>
+          </p>
         </CookieConsent>
         <LandingParagraph />
         <Typography align="center" variant="h3">
