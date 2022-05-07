@@ -1,12 +1,21 @@
-import { Container, Grid } from "@mui/material";
+import { Container, Grid, Button } from "@mui/material";
 // import Image from "next/image";
 import Link from "next/link";
 
 const Header = () => {
   return (
-    <Container fixed sx={{ height: "fit-content", minHeight: "15vh" }}>
-      <Grid container gap={1} sx={{ justifyContent: "space-between" }}>
-        <Grid item xs={3}>
+    <Container maxWidth="xl" sx={{ height: "fit-content", minHeight: "15vh" }}>
+      <Grid container gap={1} sx={{ justifyContent: "center" }}>
+        <Grid
+          item
+          xs={12}
+          md={3}
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <Link href="/">
             <a>
               {/* <Image
@@ -26,7 +35,8 @@ const Header = () => {
         </Grid>
         <Grid
           item
-          xs={3}
+          xs={12}
+          md={3}
           sx={{
             display: "flex",
             alignItems: "center",
@@ -45,6 +55,20 @@ const Header = () => {
             height={50}
             alt="minant.lt logotipas 2"
           />
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          md={3}
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Link href="/">
+            <Button color="success">Pradžia</Button>
+          </Link>
         </Grid>
       </Grid>
     </Container>
