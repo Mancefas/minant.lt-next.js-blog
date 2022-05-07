@@ -66,7 +66,7 @@ const Header = () => {
             justifyContent: "center",
           }}
         >
-          <Link href="/">
+          <Link href="/" passHref>
             <Button color="success">Pradžia</Button>
           </Link>
         </Grid>
