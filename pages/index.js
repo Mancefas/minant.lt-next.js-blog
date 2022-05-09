@@ -5,7 +5,6 @@ import matter from "gray-matter";
 
 import { Grid, Typography } from "@mui/material";
 import Head from "next/head";
-import Script from "next/script";
 import { initGA } from "../utils/GA-utils";
 import Link from "next/link";
 

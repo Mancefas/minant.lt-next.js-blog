@@ -1,5 +1,6 @@
 import { Container, Box, Grid } from "@mui/material";
 import Link from "next/link";
+import Contact from "../Contact";
 
 const Footer = () => {
   const yearNow = new Date().getFullYear();
@@ -33,9 +34,7 @@ const Footer = () => {
           <Link href="/privatumo-politika">
             <a>Privatumo politika</a>
           </Link>
-          <Link href="/">
-            <a>Susisiekti</a>
-          </Link>
+          <Contact />
         </Grid>
         <Grid
           item

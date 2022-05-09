@@ -67,7 +67,9 @@ const Header = () => {
           }}
         >
           <Link href="/" passHref>
-            <Button color="success">Pradžia</Button>
+            <Button variant="contained" sx={{ backgroundColor: "#708238" }}>
+              Pradžia
+            </Button>
           </Link>
         </Grid>
       </Grid>
